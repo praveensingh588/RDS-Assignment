@@ -1,0 +1,7 @@
+10. Add a new row to an existing data frame.
+
+
+df <- data.frame(Name = c("Alice", "Bob"), Age = c(25, 30))
+
+new_row <- data.frame(Name = "Charlie", Age = 28)
+df <- rbind(df, new_row)

@@ -1,0 +1,3 @@
+5. Name the elements of a list explicitly.
+
+my_list <- list(num = 42, text = "Hello", flag = TRUE)

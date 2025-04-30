@@ -1,0 +1,9 @@
+23. Write R code to create a data frame from a list containing multiple vectors of unequal
+length, ensuring no data recycling occurs.
+
+library(tibble)
+df <- tibble::tibble(
+  a = c(1, 2, 3),
+  b = c("x", "y")
+)
+# Will throw an error. To avoid recycling, use `tibble()` or pad manually.

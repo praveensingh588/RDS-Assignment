@@ -1,0 +1,6 @@
+16. Demonstrate the difference between single bracket [ ] slicing and double bracket [[ ]]
+referencing with a suitable example.
+
+x <- list(a = 1, b = 2)
+x["a"]   # Returns a list with element 'a'
+x[["a"]] # Returns the value 1

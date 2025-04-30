@@ -1,0 +1,4 @@
+28. Demonstrate how to subset a nested list to extract a deeply nested numeric value.
+
+deep_list <- list(a = list(b = list(c = 99)))
+deep_list$a$b$c

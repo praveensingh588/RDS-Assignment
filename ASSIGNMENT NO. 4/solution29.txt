@@ -1,0 +1,7 @@
+29. Write a function that takes a data frame as input and adds a factor-type column derived
+from an existing numeric column.
+
+add_factor <- function(df, column) {
+  df$new_factor <- as.factor(df[[column]])
+  return(df)
+}

@@ -1,0 +1,5 @@
+6. Access a named element of a list using the $ operator.
+
+my_list <- list(num = 42, text = "Hello", flag = TRUE)
+
+my_list$text

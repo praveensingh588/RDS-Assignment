@@ -1,0 +1,4 @@
+22. Create a data frame that recycles shorter vectors. Demonstrate and explain the behavior.
+
+df <- data.frame(x = 1:4, y = c("A", "B"))
+# y will be recycled to match length of x: "A", "B", "A", "B"
