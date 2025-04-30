@@ -1,0 +1,5 @@
+25. Construct a ggplot that categorizes points into multiple groups based on two numeric
+conditions.
+
+iris$Group <- with(iris, ifelse(Sepal.Length > 6 & Petal.Length > 4, "Group1", "Group2"))
+ggplot(iris, aes(Sepal.Length, Petal.Length, color = Group)) + geom_point()

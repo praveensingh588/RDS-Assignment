@@ -1,0 +1,6 @@
+15. Write R code to add annotations (text and arrows) to a ggplot plot.
+
+ggplot(df, aes(x, y)) +
+  geom_point() +
+  annotate("text", x = 5, y = 1, label = "Center", color = "black") +
+  annotate("segment", x = 5, xend = 6, y = 1, yend = 2, arrow = arrow())

@@ -1,0 +1,5 @@
+14. Create a ggplot plot with customized colors for different categories.
+
+ggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species)) +
+  geom_point() +
+  scale_color_manual(values = c("setosa" = "red", "versicolor" = "green", "virginica" = "blue"))

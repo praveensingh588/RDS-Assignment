@@ -1,0 +1,5 @@
+17. Use logical conditions to highlight subsets of points in different colors.
+
+df$highlight <- df$y > 0
+ggplot(df, aes(x, y, color = highlight)) +
+  geom_point()

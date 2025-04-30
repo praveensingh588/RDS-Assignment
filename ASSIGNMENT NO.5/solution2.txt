@@ -1,0 +1,5 @@
+2. Use qplot() to create a simple scatter plot with vectors x and y.
+
+x <- 1:10
+y <- rnorm(10)
+qplot(x, y)

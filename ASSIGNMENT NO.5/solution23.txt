@@ -1,0 +1,6 @@
+23. Create a customized legend using manual scales and guides in ggplot2.
+
+ggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species)) +
+  geom_point() +
+  scale_color_manual(values = c("setosa" = "purple", "versicolor" = "orange", "virginica" = "cyan"),
+                     name = "Flower Type")

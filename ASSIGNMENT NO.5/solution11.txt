@@ -1,0 +1,5 @@
+11. Create a ggplot scatter plot, and differentiate points by color based on a categorical
+variable.
+
+ggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species)) +
+  geom_point()
